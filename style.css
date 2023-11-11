@@ -1,0 +1,66 @@
+/* RESET RULE */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.site-heading {
+  background-color: #0F5C6C;
+  color: #71D6EA;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.site-heading h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+
+.site-heading nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+
+  /* Center the nav under the h1 */
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-heading a {
+  text-decoration: none;
+  color: inherit;
+
+  /* Pseudo-buttons */
+  width: 100px;
+  padding: 10px 5px; 
+  background-color: white;
+  color: black;
+  border: black solid 2px;
+  border-radius: 10%;
+}
+
+/* Effects on hover */
+.site-heading a:hover {
+  background-color: #F2F0D8;
+}
+
+/* Background image*/
+.volunteer {
+  height: 800px;
+
+  background-color: rgba(255,255,255,0.7);
+  background-image: url("assets/hospital.jpg");
+  background-blend-mode: lighten;
+
+  background-position: center;  
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin-bottom: 200px;
+}
+
+.membership {
+  max-width: 80vw;
+}
